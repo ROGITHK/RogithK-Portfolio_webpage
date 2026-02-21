@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Create temporary download link
         const link = document.createElement('a');
-        link.href = "./ROGITH_K_RESUME.PDF";  // ← CHANGE THIS TO YOUR CV FILENAME
+        link.href = "./ROGITH_K_RESUME.pdf";  // ← CHANGE THIS TO YOUR CV FILENAME
         link.download = 'Rogith_K_ETL_Tester_CV.pdf';  // ← DOWNLOAD FILENAME
         
         // Trigger download
@@ -188,4 +188,5 @@ window.addEventListener('scroll', animateSkillBars);
 
 // Initialize skill bars animation on load
 setTimeout(animateSkillBars, 2000);
+
 
